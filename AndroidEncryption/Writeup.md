@@ -39,7 +39,7 @@ Once this is done, the encrypted blocks are then concatenated and returned.
 
 ### Part 0x01 - Reversing the script
 
-It it probably easier to look at the flow of the program and seeing what it does before actually trying to reverse the specific parts, so that we don't fall into too many rabbit holes.
+It is probably easier to look at the flow of the program and seeing what it does before actually trying to reverse the specific parts, so that we don't fall into too many rabbit holes.
 
 We can see that it starts by calling `main`, which then calls `menu`.
 
