@@ -6,10 +6,6 @@
 [Intro](https://github.com/willwam845/CTF-Writeups/blob/master/AndroidEncryption/Writeup.md#Intro)
 
 [Writeup](https://github.com/willwam845/CTF-Writeups/blob/master/AndroidEncryption/Writeup.md#Writeup)
- 
-  [Part 0x00 - AES Fundamentals](https://github.com/willwam845/CTF-Writeups/blob/master/AndroidEncryption/Writeup.md#AES%20Fundamentals)
-  
-  
 
 [Conclusion](https://github.com/willwam845/CTF-Writeups/blob/master/AndroidEncryption/Writeup.md#Conclusion)
 
