@@ -1,13 +1,15 @@
 # Androids Encryption
 
 ## Contents
-[Briefing](https://github.com/willwam845/CTF-Writeups/blob/master/AndroidEncryption/README.md#Briefing)
 
-[Intro](https://github.com/willwam845/CTF-Writeups/blob/master/AndroidEncryption/README.md#Intro)
+[Briefing](https://github.com/willwam845/CTF-Writeups/blob/master/AndroidEncryption[Pwn2Win2020](Crypto)/README.md#Briefing)
 
-[Writeup](https://github.com/willwam845/CTF-Writeups/blob/master/AndroidEncryption/README.md#Writeup)
+[Intro](https://github.com/willwam845/CTF-Writeups/blob/master/AndroidEncryption[Pwn2Win2020](Crypto)/README.md#Intro)
 
-[Conclusion](https://github.com/willwam845/CTF-Writeups/blob/master/AndroidEncryption/README.md#Conclusion)
+[Writeup](https://github.com/willwam845/CTF-Writeups/blob/master/AndroidEncryption[Pwn2Win2020](Crypto)/README.md#Writeup)
+
+[Conclusion](https://github.com/willwam845/CTF-Writeups/blob/master/AndroidEncryption[Pwn2Win2020](Crypto)/README.md#Conclusion)
+
 
 ## Briefing
 ```
