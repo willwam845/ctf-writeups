@@ -57,7 +57,7 @@ Well, the vulnerability lies in the fact that this survey uses Google Forms. The
 We might have to do a bit of local testing to figure out how we can apply this known plaintext attack, but since there is no canary, PIE, KASLR, SMAP, or Miller-Rabin primality test, it is fairly easy to get a plaintext string which we can search for. 
 
 
-To start, we create a form with Google Docs, but we make it very short so that it is possible to complete it and get a and b by using the Pohlig Hellman algorithm. From here, we can explore possible strings we can use for our Known PLaintext Survey Blood Attack.
+To start, we create a form with Google Docs, but we make it very short so that it is possible to complete it and get a and b by using the Pohlig Hellman algorithm. From here, we can explore possible strings we can use for our Known Plaintext Survey Blood Attack.
 
 
 We have a very interesting string that appears to be not added by us, which is "Your response has been recorded". This looks very promising, as after some more local testing, I found that this string will always appear at the end of a survey.
