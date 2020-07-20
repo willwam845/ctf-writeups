@@ -6,7 +6,7 @@ Feedback Survey was a 20 point miscellaneous challenge in this years UIUCTF. You
 
 The description reads as follows:
 ```
-Please fill out the feedback survey here! https://forms.gle/qfWGeN6jFf5kRcZW8```
+Please fill out the feedback survey here! https://forms.gle/qfWGeN6jFf5kRcZW8
 ```
 
 #Challenge
