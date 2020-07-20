@@ -33,7 +33,7 @@ so far, this was looking fine.
 Obviously, this "looking fine" was rather short lived, as we all know how hard these challenges can be.
 
 
-The first thing I noticed when looking at this challenge is the fact that some questions were required to be filled in, while others did not. This could be some sort of steganography. Taking a required question as a 1 and an unrequired question as a 0, we could get a binary string 101111111000. However, we can see that this is way too short to get anything out of it. I also tried various other encodings, like morse, which I attempted to decode by splitting each letter by the question type. This decoded to `AIIIETM`, which didn't appear to be a flag, so I ruled the possibility of this being useful.
+The first thing I noticed when looking at this challenge is the fact that some questions were required to be filled in, while others did not. This could be some sort of steganography. Taking a required question as a 1 and an unrequired question as a 0, we could get a binary string 101111111000. However, we can see that this is way too short to get anything out of it. I also tried various other encodings, like morse, which I attempted to decode by splitting each letter by the question type. This decoded to `AIIIETM`, which didn't appear to be a flag, so I ruled out the possibility of this being useful.
 
 
 Another thing that was noticed was the odd capitalization of some of the words in a few of the questions, for example the C in "Can", or every first letter of each word in the question "Which Challenge Was Your Favorite". This would have been my next move, until I got word from my team that this could potentially be a vulnerable survey.
