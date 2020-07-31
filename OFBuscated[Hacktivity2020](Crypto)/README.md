@@ -146,3 +146,5 @@ This gives us `745f69745f70756c6c5f69745f6c6f6c6f3c071c2b1d15133c391224241409106
 ## Conclusion
 
 Overall, a fun and quick challenge from HacktivityConCTF 2020. Thanks to Soul for making it :)
+
+#### (P.S. I genuinely don't know how that worked, since we should only have recovered the keystream for one block, but if it works, it works?)
