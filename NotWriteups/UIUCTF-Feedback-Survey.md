@@ -87,24 +87,21 @@ Using these strings as our plaintext, we can write a python script to attempt to
 ```python
 import codecs
 import requests
+from Crypto.util.number import long_to_bytes, bytes_to_long
 
-def lb(a):
-  return bytes.fromhex(str(hex(a))[2:])
-def bl(a):
-  return int(a.hex(),16)
 def xor(a, b):
     return bytes([_a ^ _b for _a, _b in zip(a, b)])
 
 def decode(line):
   # e = 1, therefore c ** 1 mod n = c, we can decrypt this easily
   n = 22266616657574989868109324252160663470925207690694094953312891282341426880506924648525181014287214350136557941201445475540830225059514652125310445352175047408966028497316806142156338927162621004774769949534239479839334209147097793526879762417526445739552772039876568156469224491682030314994880247983332964121759307658270083947005466578077153185206199759569902810832114058818478518470715726064960617482910172035743003538122402440142861494899725720505181663738931151677884218457824676140190841393217857683627886497104915390385283364971133316672332846071665082777884028170668140862010444247560019193505999704028222347577
-  c = bl(line)
+  c = bytes_to_long(line.encode())
   e = 1
   d = pow(e,-1,n)
   pt = pow(c,d,n) # decrypting the line
-  line = lb(pt)
+  line = long_to_bytes(pt)
   key = b'\x00' * len(line)
-  line = xor(key,line) # decrypting the xor
+  line = xor(key,line).decode() # decrypting the xor
   line = codecs.encode(line, 'rot_13')
   line = codecs.encode(line, 'rot_13').encode() # decrypting the Rot26
   return line
@@ -113,12 +110,13 @@ r = requests.get("https://docs.google.com/forms/d/e/1FAIpQLScSIF6p2ZWpuOVw6zCQyq
 lines = r.text.split("\n") 
 
 words = ["flag", "thanks", "thank you", "feedback", "we appreciate", "response"] # ai generated wordlist :3
-
 for word in words:
   for line in lines:
-    line = decode(line)
-    if word in line:
-      print(line)
+    if len(line) < 256:
+      line = decode(line).decode()
+      if word in line:
+        print(line)
+
 ```
 
 
