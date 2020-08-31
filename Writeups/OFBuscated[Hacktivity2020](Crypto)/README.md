@@ -1,15 +1,5 @@
 # OFBuscation
 
-## Contents
-
-[Briefing](https://github.com/willwam845/CTF-Writeups/blob/master/OFBuscated[Hacktivity2020](Crypto)/README.md#Briefing)
-
-[Intro](https://github.com/willwam845/CTF-Writeups/blob/master/OFBuscated[Hacktivity2020](Crypto)/README.md#Intro)
-
-[Writeup](https://github.com/willwam845/CTF-Writeups/blob/master/OFBuscated[Hacktivity2020](Crypto)/README.md#Writeup)
-
-[Conclusion](https://github.com/willwam845/CTF-Writeups/blob/master/OFBuscated[Hacktivity2020](Crypto)/README.md#Conclusion)
-
 # Briefing
 ```
 I just learned some lesser used AES versions and decided to make my own!
