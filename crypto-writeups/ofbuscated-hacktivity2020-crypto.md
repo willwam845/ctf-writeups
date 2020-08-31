@@ -2,16 +2,6 @@
 
 ## OFBuscation
 
-### Contents
-
-\[Briefing\]\([https://github.com/willwam845/CTF-Writeups/blob/master/OFBuscated\[Hacktivity2020\]\(Crypto\)/README.md\#Briefing](https://github.com/willwam845/CTF-Writeups/blob/master/OFBuscated[Hacktivity2020]%28Crypto%29/README.md#Briefing)\)
-
-\[Intro\]\([https://github.com/willwam845/CTF-Writeups/blob/master/OFBuscated\[Hacktivity2020\]\(Crypto\)/README.md\#Intro](https://github.com/willwam845/CTF-Writeups/blob/master/OFBuscated[Hacktivity2020]%28Crypto%29/README.md#Intro)\)
-
-\[Writeup\]\([https://github.com/willwam845/CTF-Writeups/blob/master/OFBuscated\[Hacktivity2020\]\(Crypto\)/README.md\#Writeup](https://github.com/willwam845/CTF-Writeups/blob/master/OFBuscated[Hacktivity2020]%28Crypto%29/README.md#Writeup)\)
-
-\[Conclusion\]\([https://github.com/willwam845/CTF-Writeups/blob/master/OFBuscated\[Hacktivity2020\]\(Crypto\)/README.md\#Conclusion](https://github.com/willwam845/CTF-Writeups/blob/master/OFBuscated[Hacktivity2020]%28Crypto%29/README.md#Conclusion)\)
-
 ## Briefing
 
 ```text
