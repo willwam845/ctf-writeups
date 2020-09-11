@@ -6,4 +6,4 @@
   * [HacktivityConCTF - OFBuscated](crypto-writeups/ofbuscatedo.md)
   * [GoogleCTF - Sharky](crypto-writeups/sharky.md)
 * [Not Writeups](notwriteups/README.md)
-  * [UIUCTF-Feedback-Survey](not-writeups/uiuctf-feedback-survey.md)
+  * [UIUCTF-Feedback-Survey](Not-Writeups/uiuctf-feedback-survey.md)
