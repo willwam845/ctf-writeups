@@ -7,3 +7,4 @@
   * [GoogleCTF - Sharky](crypto-writeups/sharky.md)
 * [Not Writeups](notwriteups/README.md)
   * [UIUCTF-Feedback-Survey](Not-Writeups/uiuctf-feedback-survey.md)
+  * [DUCTF-Survey](Not-Writeups/ductf-survey.md)
